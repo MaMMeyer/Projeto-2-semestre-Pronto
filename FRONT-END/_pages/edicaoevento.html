@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- fontawesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--<script src="https://kit.fontawesome.com/89322f4ae0.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="../_wwp/_css/all.css">
+    <!-- LIGUEI OUTRO CSS -->
+    <!-- <link rel="stylesheet" href="../_css/style_cad_eventos.css"> -->
+    <link rel="stylesheet" href="../_css/style_cad_veiculo.css">
+    <title>Projeto 2° Semestre</title>
+</head>
+
+<body>
+
+    <main class="main_container">
+        <header class="header_container">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="../trab2semestre.html">Home</a></li>
+                    <li><a href="../trab2semestre.html#sobre">Sobre</a></li>
+                    <li><a href="../_pages/menu.html">Perfil</a></li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="form_title">
+            <h1>Informações do Evento</h1>
+        </div>
+        <div class="form_container">
+            <form action="" class="form_container_content">
+                <div class="alert alert_danger hidden" id="alertCadastro"></div>
+
+                <div class="form_div">
+                    <label for="" class="form_input_label">Nome do ocorrido:</label>
+                    <input type="text" placeholder="Digite um nome para este evento" class="form_input" id="nomeOcorrido">
+                </div>
+                <div class="form_div">
+                    <label for="" class="form_input_label">Tipo:</label>
+                    <select id="tipoOcorrido" class="form_input_select">
+                        <option value="Acidente" id="acidenteTipo">Acidente</option>
+                        <option value="Reparo" id="reparoTipo">Reparo</option>
+                    </select>
+                </div>
+
+                <div class="form_div">
+                    <label for="" class="form_input_label">Descrição:</label>
+                    <textarea class="form_textarea" placeholder="Digite a descrição do ocorrido!" id="descricaoOcorrido"></textarea>
+                </div>
+
+                <button type="submit" class="form_btn" id="editBtn">Editar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="../_script/edicaoevento.js"></script>t
+
+</body>
+</html>

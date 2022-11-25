@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- fontawesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- fontawesome -->
+    <!--<script src="https://kit.fontawesome.com/89322f4ae0.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="../_wwp/_css/all.css">
+    <link rel="stylesheet" href="../_css/style_menu.css">
+    <title>Projeto 2° Semestre</title>
+</head>
+
+<body>
+
+    <main class="main_container">
+        <header class="header_container">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="../trab2semestre.html">Home</a></li>
+                    <li><a href="../trab2semestre.html#sobre">Sobre</a></li>
+                    <li><a href="../_pages/menu.html">Perfil</a></li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="info_empresa_container">
+            <div class="info_empresa_image">
+                <img src="" alt="" id="empresaImg">
+                <div><a href="./edicaoempresa.html" class="info_empresa_btn">Alterar Foto</a></div>
+            </div>
+            <div class="info_empresa_conteudo">
+                <h1>Informações da empresa</h1>
+                <!-- Dados dinamicos -->
+                <div class="info_empresa_dados">
+                    <ul class="info_empresa_sensivel">
+                        <li>
+                            Nome da empresa
+                            <span id="empresaId">Empresa</span>
+                        </li>
+                        <li>
+                            Email
+                            <span id="emailId">email</span>
+                        </li>
+                        <li>
+                            CNPJ
+                            <span id="cnpjId">cnpj</span>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <a href="./edicaoempresa.html" class="info_empresa_btn">Trocar Senha</a>
+            </div>
+        </div>
+
+        <div class="info_empresa_veiculos">
+            <h1>Veiculos cadastrados</h1>
+            <div class="barra_pesquisa">
+                <form id="formPesquisa">
+                    <input type="text" placeholder="Pesquise via modelo" id="pesquisa">
+                </form>
+            </div>
+
+            <div class="pagination_container" id="paginationContainer">
+
+                <!-- Renderizado via JS -->
+
+            </div>
+
+            <div class="pagination_button_container" id="paginationButtonContainer"> 
+                
+                <!-- Renderizado via HTML -->
+
+            </div>
+
+            <div><a href="./cadastrodeveiculo.html" class="info_empresa_btn">Cadastre um novo veiculo</a></div>
+
+        </div>
+
+    </main>
+
+    <Footer>
+        <p id="titulorodape">Serviços</p>
+        <p class="titulorodape1">Login/Registro</p>
+        <p class="titulorodape1">Menu de Usuário</p>
+        <p class="titulorodape1">Adicionar novo veículo</p>
+        <p class="titulorodape1">Informações da Frota</p>
+        <p class="titulorodape2">Todos os Direitos reservados ₢</p>
+    </Footer>
+
+    <script src="../_script/menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- fontawesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--<script src="https://kit.fontawesome.com/89322f4ae0.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="../_wwp/_css/all.css">
+    <link rel="stylesheet" href="../_css/style_visual_veiculo.css">
+    <title>Projeto 2° Semestre</title>
+</head>
+
+<body>
+
+    <main class="main_container">
+        <header class="header_container">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="../trab2semestre.html">Home</a></li>
+                    <li><a href="../trab2semestre.html#sobre">Sobre</a></li>
+                    <li><a href="../_pages/menu.html">Perfil</a></li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="info_veiculo">
+            <h1>Informações do veiculo</h1>
+            <div class="info_veiculo_content">
+                <div>
+                    <img src="" alt="" class="veiculo_image" id="veiculoImage">
+                </div>
+                <div>
+                    <ul class="info_veiculo_dados">
+                        <li class="bold">Modelo: <span id="modelo" class="spanVisualiza">Carro muito foda</span></li>
+                        <li class="bold">Renavan: <span id="renavan" class="spanVisualiza">111111111111</span></li>
+                        <li class="bold">Placa: <span id="placa" class="spanVisualiza">QBW-11</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <button class="info_veiculo_btn">
+                <a href="#" id="edicaoVeiculoId">Editar Veiculo</a>
+            </button>
+        </div>
+
+        <div class="info_funcionario">
+            <h1>Informações do funcionario</h1>
+            <div class="info_funcionario_dados" id="funcionarioDados">
+                <h3 class="bold">Nome: <span id="nome" class="spanVisualiza"></span></h3>
+                <h3 class="font-weight"></h3>
+                <h3 class="bold">Telefone: <span id="telefone" class="spanVisualiza"></span></h3>
+                <h3 class="font-weight"></h3>
+                <h3 class="bold">Identificador: <span id="identificador" class="spanVisualiza"></span></h3>
+            </div>
+
+            <a href="" id="funcionarioBtn" class="info_veiculo_btn">Editar Dados</a>
+            
+        </div>
+
+        <div class="info_eventos">
+            <h1>Eventos</h1>
+
+            <div id="eventosDados">
+
+            </div>
+
+            <a href="#" id="eventosView">visualizar todos os eventos</a>
+
+            <a href="#" id="eventosBtn" class="info_veiculo_btn">Cadastrar Eventos</a>
+
+        </div>
+
+    </main>
+
+    <Footer>
+        <p id="titulorodape">Serviços</p>
+        <p class="titulorodape1">Login/Registro</p>
+        <p class="titulorodape1">Menu de Usuário</p>
+        <p class="titulorodape1">Adicionar novo veículo</p>
+        <p class="titulorodape1">Informações da Frota</p>
+        <p class="titulorodape2">Todos os Direitos reservados ₢</p>
+    </Footer>
+
+    <script src="../_script/visualizacaoveiculo.js"></script>
+
+</body>
+</html>
